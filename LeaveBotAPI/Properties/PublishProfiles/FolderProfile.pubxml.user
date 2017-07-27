@@ -116,10 +116,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/26/2017 11:01:21</publishTime>
     </File>
     <File Include="bin/LeaveBotAPI.dll">
-      <publishTime>07/27/2017 09:31:45</publishTime>
+      <publishTime>07/27/2017 10:19:23</publishTime>
     </File>
     <File Include="bin/LeaveBotAPI.pdb">
-      <publishTime>07/27/2017 09:31:45</publishTime>
+      <publishTime>07/27/2017 10:19:23</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>11/30/2016 16:07:42</publishTime>

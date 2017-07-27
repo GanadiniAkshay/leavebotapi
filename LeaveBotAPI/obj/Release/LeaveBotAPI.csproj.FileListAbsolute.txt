@@ -88,3 +88,4 @@ C:\Users\akshay\documents\visual studio 2017\Projects\LeaveBotAPI\LeaveBotAPI\bi
 C:\Users\akshay\documents\visual studio 2017\Projects\LeaveBotAPI\LeaveBotAPI\bin\Microsoft.AI.Web.xml
 C:\Users\akshay\documents\visual studio 2017\Projects\LeaveBotAPI\LeaveBotAPI\obj\Release\LeaveBotAPI.dll
 C:\Users\akshay\documents\visual studio 2017\Projects\LeaveBotAPI\LeaveBotAPI\obj\Release\LeaveBotAPI.pdb
+C:\Users\akshay\documents\visual studio 2017\Projects\LeaveBotAPI\LeaveBotAPI\obj\Release\LeaveBotAPI.csprojResolveAssemblyReference.cache

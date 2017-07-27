@@ -4,16 +4,16 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using eStaffBizLayer;
+using Apiv2.ELeave.Dao;
 
 namespace LeaveBotAPI.Controllers
 {
     public class CompanyguidController : ApiController
     {
-        public object get(string companyID)
+        public object get(string userGUID)
         {
-            eStaffBizLayer.BizMaster helper = new eStaffBizLayer.BizMaster();
-            string companyGUID = helper.GetCompanyGUIDbyCompanyID(companyID);
+            LeaveDaoHelper leaveHelper = LeaveDaoHelper.getInstance();
+            string companyGUID = leaveHelper.GetCompanyGUIDByUserID(userGUID);
             return new { companyGUID = companyGUID };
         }
     }

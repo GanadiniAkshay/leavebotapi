@@ -11,7 +11,7 @@ namespace LeaveBotAPI.Controllers
 {
     public class LeaveBalanceController : ApiController
     {
-        public object get(string companyGUID, string userGUID, int year)
+        public object get(string companyGUID, string userGUID, DateTime year)
         {
             LeaveBiz leave = new LeaveBiz();
             DataTable data = leave.GetUserBalanceDetails_ByUserGUID(companyGUID, userGUID, year);

@@ -16,7 +16,7 @@ namespace LeaveBotAPI.Controllers
             TransactionDAL transaction = new TransactionDAL();
             DateTime fromDate = Convert.ToDateTime(request.FromDate);
             DateTime toDate = Convert.ToDateTime(request.ToDate);
-            int result = transaction.DoApplyLeave(request.userGUID, request.companyGUID, fromDate, toDate, request.FromTime, request.ToTime, request.leaveday, request.leaveType, request.remarks, request.cclist, request.aoguid, request.roguid, request.userGUID, DateTime.Now);
+            string result = transaction.DoApplyLeave(request.userGUID, request.companyGUID, fromDate, toDate, request.FromTime, request.ToTime, request.leaveday, request.leaveType, request.remarks, request.cclist, request.aoguid, request.roguid, request.userGUID, DateTime.Now);
             return new { res = result };
         }
     }

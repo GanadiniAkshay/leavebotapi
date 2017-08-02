@@ -48,8 +48,9 @@
     <Reference Include="Apiv2.Eleave">
       <HintPath>..\..\..\..\..\Downloads\Apiv2.Eleave.dll</HintPath>
     </Reference>
-    <Reference Include="ELeaveLibrary">
-      <HintPath>..\..\..\..\..\Downloads\ELeaveLibrary.dll</HintPath>
+    <Reference Include="ELeaveLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\new dl\ELeaveLibrary.dll</HintPath>
     </Reference>
     <Reference Include="eStaff.BizLayer">
       <HintPath>..\..\..\..\..\Downloads\eStaff.BizLayer.dll</HintPath>
@@ -68,6 +69,9 @@
     </Reference>
     <Reference Include="eStaffEntities">
       <HintPath>..\..\..\..\..\Downloads\eStaffEntities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationBlocks.Data">
+      <HintPath>..\..\..\..\Microsoft DLLs\Microsoft.ApplicationBlocks.Data.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
@@ -106,6 +110,9 @@
     <Reference Include="Microsoft.Practices.Unity">
       <HintPath>..\..\..\..\Microsoft DLLs\Microsoft.Practices.Unity.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -124,9 +131,6 @@
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http">
     </Reference>

@@ -70,6 +70,9 @@
     <Reference Include="eStaffEntities">
       <HintPath>..\..\..\..\..\Downloads\eStaffEntities.dll</HintPath>
     </Reference>
+    <Reference Include="JLCommonUtility">
+      <HintPath>..\..\..\..\..\Downloads\JLCommonUtility.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.ApplicationBlocks.Data">
       <HintPath>..\..\..\..\Microsoft DLLs\Microsoft.ApplicationBlocks.Data.dll</HintPath>
     </Reference>

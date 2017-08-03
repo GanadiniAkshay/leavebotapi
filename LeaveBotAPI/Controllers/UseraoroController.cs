@@ -17,8 +17,10 @@ namespace LeaveBotAPI.Controllers
 
             string Aoname = emp.AOFullName;
             string Roname = emp.ROFullName;
+            string Aoguid = emp.AOGUID;
+            string Roguid = emp.ROGUID;
 
-            return new { Aoname = Aoname, Roname = Roname };
+            return new { Aoname = Aoname, Roname = Roname, Aoguid = Aoguid, Roguid = Roguid };
         }
     }
 }
